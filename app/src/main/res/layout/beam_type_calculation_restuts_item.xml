@@ -41,15 +41,7 @@
             style="@style/textview_style_4"
             android:id="@+id/reactiontextviewunit"
             tools:text="KN"/>
-        <TextView
-            android:id="@+id/questionmark"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            style="@style/textview_style_4"
-            android:text="@string/info"
-            android:textColor="@color/red"
-            android:textStyle="bold"/>
+        
     </LinearLayout>
     <View
         android:id="@+id/viewinferioritem"
