@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="naranja_flojo">#fcc889</color>
+    <color name="naranja_oscuro">#ff6400</color>
+    <color name="Black">#000</color>
+    <color name="mainbackground">#000000</color>
+    <color name="SectionTypeBackgroundColor">#c8ddf2</color>
+    <color name="Backgroundcolorstatusbar">#a4b5c6</color>
+    <color name="SectionTypeBackgroundColor2">#8792dc</color>
+    <color name="text_primary">#ffffff</color>
+    <color name="text_secondary">#ffffff</color>
+    <color name="backgroundcolor">#bbbfc1</color>
+    <color name="darkgray">#a7abae</color>
+    <color name="backgroundcolorligth">#f1f1f1</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#66a452</color>
+    <color name="red">#af3636</color>
+    <color name="infoobuttoncolor">#3F51B5</color>
+    <color name="ligthgray">#c2c2c2</color>
+    <color name="transparent">#fff</color>
+</resources>

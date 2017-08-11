@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--imagenes con tipos de viga-->
+    <array name="beam_type_images">
+        <item>@drawable/img_1</item>
+        <item>@drawable/img_2</item>
+        <item>@drawable/img_3</item>
+        <item>@drawable/img_4</item>
+    </array>
+    <!--imagenes con tipos de carga viga simplemente apoyada-->
+    <array name="B_0_Images">
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+        <item>@drawable/img_7</item>
+        <item>@drawable/img_8</item>
+        <item>@drawable/img_9</item>
+        <item>@drawable/img_10</item>
+        <item>@drawable/img_11</item>
+        <item>@drawable/img_12</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_14</item>
+        <item>@drawable/img_15</item>
+        <item>@drawable/img_16</item>
+        <item>@drawable/img_17</item>
+        <item>@drawable/img_18</item>
+        <item>@drawable/img_19</item>
+    </array>
+    <array name="B_1_Images">
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+        <item>@drawable/img_7</item>
+        <item>@drawable/img_8</item>
+        <item>@drawable/img_9</item>
+        <item>@drawable/img_10</item>
+        <item>@drawable/img_11</item>
+        <item>@drawable/img_12</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_14</item>
+        <item>@drawable/img_15</item>
+        <item>@drawable/img_16</item>
+        <item>@drawable/img_17</item>
+        <item>@drawable/img_18</item>
+        <item>@drawable/img_19</item>
+    </array>
+    <array name="B_2_Images">
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+        <item>@drawable/img_7</item>
+        <item>@drawable/img_8</item>
+        <item>@drawable/img_9</item>
+        <item>@drawable/img_10</item>
+        <item>@drawable/img_11</item>
+        <item>@drawable/img_12</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_14</item>
+        <item>@drawable/img_15</item>
+        <item>@drawable/img_16</item>
+        <item>@drawable/img_17</item>
+        <item>@drawable/img_18</item>
+        <item>@drawable/img_19</item>
+    </array>
+    <array name="B_3_Images">
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+        <item>@drawable/img_7</item>
+        <item>@drawable/img_8</item>
+        <item>@drawable/img_9</item>
+        <item>@drawable/img_10</item>
+        <item>@drawable/img_11</item>
+        <item>@drawable/img_12</item>
+        <item>@drawable/img_13</item>
+        <item>@drawable/img_14</item>
+        <item>@drawable/img_15</item>
+        <item>@drawable/img_16</item>
+        <item>@drawable/img_17</item>
+        <item>@drawable/img_18</item>
+        <item>@drawable/img_19</item>
+    </array>
+
+    <!--diferentes magnitudes para cada tipo de unidad-->
+    <string-array name="length">
+        <item>m</item>
+        <item>mm</item>
+        <item>in</item>
+        <item>ft</item>
+    </string-array>
+    <string-array name="length_conv">
+        <item>1.00</item>
+        <item>1000.00</item>
+        <item>39.370079</item>
+        <item>3.28084</item>
+    </string-array>
+    <string-array name="pressure">
+        <item>N/m</item>
+        <item>KN/m</item>
+        <item>lbs/in</item>
+        <item>Kips/ft</item>
+    </string-array>
+    <string-array name="pressure_conv">
+        <item>1.00</item>
+        <item>0.001</item>
+        <item>0.005710148562</item>
+        <item>0.068521781007</item>
+        <item>0.000068521781</item>
+    </string-array>
+    <string-array name="pointload">
+        <item>N</item>
+        <item>KN</item>
+        <item>lbs</item>
+        <item>Kips</item>
+    </string-array>
+    <string-array name="pointload_conv">
+        <item>1.00</item>
+        <item>0.001</item>
+        <item>0.224809</item>
+        <item>0.000224809</item>
+    </string-array>
+    <string-array name="moment">
+        <item>N*m</item>
+        <item>KN*m</item>
+        <item>lbs*in</item>
+        <item>lbs*ft</item>
+        <item>Kips*ft</item>
+    </string-array>
+    <string-array name="moment_conv">
+        <item>1.00</item>
+        <item>0.001</item>
+        <item>8.850748089911</item>
+        <item>0.737562359560</item>
+        <item>0.000737562360</item>
+    </string-array>
+    <string-array name="inertia">
+        <item>m^4</item>
+        <item>mm^4</item>
+        <item>in^4</item>
+        <item>ft^4</item>
+    </string-array>
+    <string-array name="angle">
+        <item>rad</item>
+        <item>deg</item>
+    </string-array>
+    <string-array name="angle_conv">
+        <item>1.00</item>
+        <item>57.29577951</item>
+    </string-array>
+    <string-array name="inertia_conv">
+        <item>1.00</item>
+        <item>1000000000000</item>
+        <item>2402509.61002883</item>
+        <item>115.861767458952</item>
+    </string-array>
+    <string-array name="elasticitymodulus">
+        <item>N/m2</item>
+        <item>KN/m2</item>
+        <item>N/mm2</item>
+        <item>psi</item>
+        <item>ksi</item>
+        <item>ksf</item>
+    </string-array>
+    <string-array name="elasticitymodulus_conv">
+        <item>1.00</item>
+        <item>0.001</item>
+        <item>0.000001</item>
+        <item>0.000145</item>
+        <item>0.000000145</item>
+        <item>0.000020885438</item>
+    </string-array>
+
+    <!--Para cada tipo de carga tenemos unas variables y unas unidades para cada variable-->
+    <!--B0 - Simply Supported con Uniform Load-->
+    <!--#############################################################-->
+    <array name="B_0_0"> <!--variables de entrada-->
+        <item>l</item>          //0
+        <item>w</item>          //1
+        <item>E</item>          //2
+        <item>I</item>          //3
+    </array>
+    <array name="B_0_0_1"> <!--tipo de variable-->
+        <item>length</item>
+        <item>pressure</item>
+        <item>elasticitymodulus</item>
+        <item>inertia</item>
+    </array>
+    <array name="B_0_0_2"> <!--reacciones-->
+        <item>RA</item>         //4
+        <item>RB</item>         //5
+        <item>Mmax</item>       //6
+        <item>Vmax</item>       //7
+        <item>\u03B8 A</item>   //8
+        <item>\u03B8 B</item>   //9
+        <item>\u03B4</item>     //10
+    </array>
+    <array name="B_0_0_3">
+        <item>pointload</item>
+        <item>pointload</item>
+        <item>moment</item>
+        <item>pointload</item>
+        <item>angle</item>
+        <item>angle</item>
+        <item>length</item>
+    </array>
+    <array name="B_0_0_4">
+        <item>$$R_A = \\frac{wl}{2}$$</item>
+        <item>$$R_B = \\frac{wl}{2}$$</item>
+        <item>$$M(x) = \\frac{wl}{2}x - \\frac{wx^2}{2} \\Rightarrow$$ \n $$M_{max} = M(\\frac{l}{2}) = \\frac{wl^2}{8}$$</item>
+        <item>$$V(x) = w(\\frac{l}{2}-x) \\Rightarrow $$ \n $$V_{max}=V(0)=\\frac{wl}{2}$$</item>
+        <item>$$\\theta_A = \\frac{wl^3}{24EI}$$</item>
+        <item>$$\\theta_B = -\\frac{wl^3}{24EI}$$</item>
+        <item>$$\\delta = \\frac{5wl^4}{384EI}$$</item>
+    </array>
+    <!--#############################################################-->
+    <array name="B_0_1">
+        <item>l</item>
+        <item>w</item>
+        <item>E</item>
+        <item>I</item>
+    </array>
+    <array name="B_0_1_1">
+        <item>length</item>
+        <item>pressure</item>
+        <item>elasticitymodulus</item>
+        <item>inertia</item>
+    </array>
+    <array name="B_0_1_2">
+        <item>RA</item>
+        <item>RB</item>
+        <item>Mmax</item>
+        <item>Vmax</item>
+        <item>\u03B8 A</item>
+        <item>\u03B8 B</item>
+        <item>\u03B4</item>
+    </array>
+    <array name="B_0_1_3">
+        <item>pointload</item>
+        <item>pointload</item>
+        <item>moment</item>
+        <item>pointload</item>
+        <item>angle</item>
+        <item>angle</item>
+        <item>length</item>
+    </array>
+    <array name="B_0_1_4">
+        <item>$$R_A = \\frac{wl}{6}$$</item>
+        <item>$$R_B = \\frac{wl}{3}$$</item>
+        <item>$$M(x) = \\frac{wx}{6l}(l^2-x^2) $$ \n
+            $$M_{max}= M(\\frac{l}{\\sqrt 3}) = \\frac{wl^2}{3\\sqrt 3}$$
+        </item>
+        <item>$$V(x) = \\frac{w}{6l}(3x^2-l^2)$$\n
+            $$V_{max}= V(l)=\\frac{wl}{3}$$</item>
+        <item>$$\\theta_A = \\frac{7wl^3}{360EI}$$</item>
+        <item>$$\\theta_B = \\frac{-8wl^3}{360EI}$$</item>
+        <item>$$\\delta(x) = \\frac{wx}{360lEI}(7l^4+3x^4-10l^2x^2)$$</item>
+    </array>
+    <!--#############################################################-->
+    <array name="B_0_2">
+        <item>l</item>
+        <item>w</item>
+        <item>E</item>
+        <item>I</item>
+    </array>
+    <array name="B_0_2_1">
+        <item>length</item>
+        <item>pressure</item>
+        <item>elasticitymodulus</item>
+        <item>inertia</item>
+    </array>
+    <array name="B_0_2_2">
+        <item>RA</item>
+        <item>RB</item>
+        <item>Mmax</item>
+        <item>Vmax</item>
+        <item>\u03B8 A</item>
+        <item>\u03B8 B</item>
+        <item>\u03B4</item>
+    </array>
+    <array name="B_0_2_3">
+        <item>pointload</item>
+        <item>pointload</item>
+        <item>moment</item>
+        <item>pointload</item>
+        <item>angle</item>
+        <item>angle</item>
+        <item>length</item>
+    </array>
+    <array name="B_0_2_4">
+        <item>$$R_A = \\frac{wl}{4}$$</item>
+        <item>$$R_B = \\frac{wl}{4}$$</item>
+        <item>$$M(0 \\le x \\le \\frac{l}{2}) = \\frac{wx}{12l}(3l^2-4x^2) $$ \n
+            $$M(\\frac{l}{2} \\lt x \\le l) = \\frac{w(l-x)}{12l}(3l^2-4(l-x)^2) $$ \n
+            $$M_{max}= M(\\frac{l}{2}) = \\frac{wl^2}{12}$$
+        </item>
+        <item>$$V(0 \\le x \\le \\frac{l}{2}) = \\frac{w}{4l}(l^2-4x^2) $$ \n
+            $$V(\\frac{l}{2} \\lt x \\le l) = - \\frac{w}{4l}(l^2-4(l-x)^2) $$ \n
+            $$V_{max}= V(0)=V(l) = \\frac{wl}{4}$$
+        </item>
+        <item>$$\\theta_A = \\frac{5wl^3}{192EI}$$</item>
+        <item>$$\\theta_B = \\frac{-5wl^3}{192EI}$$</item>
+        <item>$$\\delta(0 \\le x \\le \\frac{l}{2}) = \\frac{wx}{960lEI}(5l^2-4x^2)^2$$ \n
+            $$\\delta(\\frac{l}{2} \\lt x \\le l) = \\frac{w(l-x)}{960lEI}(5l^2-4(l-x)^2)^2$$
+        </item>
+    </array>
+    <!--#############################################################-->
+    <array name="B_0_3">
+        <item>l</item>
+        <item>w</item>
+        <item>E</item>
+        <item>I</item>
+    </array>
+    <array name="B_0_3_1">
+        <item>length</item>
+        <item>pressure</item>
+        <item>elasticitymodulus</item>
+        <item>inertia</item>
+    </array>
+    <array name="B_0_3_2">
+        <item>RA</item>
+        <item>RB</item>
+        <item>Mmax</item>
+        <item>Vmax</item>
+        <item>\u03B8 A</item>
+        <item>\u03B8 B</item>
+        <item>\u03B4</item>
+    </array>
+    <array name="B_0_3_3">
+        <item>pointload</item>
+        <item>pointload</item>
+        <item>moment</item>
+        <item>pointload</item>
+        <item>angle</item>
+        <item>angle</item>
+        <item>length</item>
+    </array>
+    <array name="B_0_3_4">
+        <item>$$R_A = \\frac{wl}{4}$$</item>
+        <item>$$R_B = \\frac{wl}{4}$$</item>
+        <item>$$M(0 \\le x \\le \\frac{l}{2}) = \\frac{wx}{12l}(3l^2-6lx+4x^2) $$ \n
+            $$M(\\frac{l}{2} \\lt x \\le l) = \\frac{w(l-x)}{12l}(l^2-2lx+4x^2) $$ \n
+            $$M_{max}= M(\\frac{l}{2}) = \\frac{wl^2}{24}$$
+        </item>
+        <item>$$V(0 \\le x \\le \\frac{l}{2}) = \\frac{w}{4l}(l-2x)^2 $$ \n
+            $$V(\\frac{l}{2} \\lt x \\le l) = - \\frac{w}{4l}(2x-l)^2 $$ \n
+            $$V_{max}= V(0)=V(l) = \\frac{wl}{4}$$
+        </item>
+        <item>$$\\theta_A = \\frac{wl^3}{64EI}$$</item>
+        <item>$$\\theta_B = \\frac{-wl^3}{64EI}$$</item>
+        <item>$$\\delta(0 \\le x \\le \\frac{l}{2}) =$$ \n
+            $$ = \\frac{wx}{960lEI}(15l^4-50l^2x^2+40lx^3-16x^4)$$ \n
+            $$\\delta(\\frac{l}{2} \\lt x \\le l) = $$ \n
+            $$ = \\frac{w}{960lEI}(16x^5-40lx^4+40l^2x^3- $$ \n
+            $$ -40l^3x^2+25l^4x-l^5)$$
+        </item>
+    </array>
+    <!--#############################################################-->
+    <array name="B_0_4">
+        <item>l</item>
+        <item>w</item>
+        <item>a</item>
+        <item>b</item>
+        <item>E</item>
+        <item>I</item>
+    </array>
+    <array name="B_0_4_1">
+        <item>length</item>
+        <item>pressure</item>
+        <item>length</item>
+        <item>length</item>
+        <item>elasticitymodulus</item>
+        <item>inertia</item>
+    </array>
+    <array name="B_0_4_2">
+        <item>RA</item>
+        <item>RB</item>
+        <item>Mmax</item>
+        <item>Vmax</item>
+        <item>\u03B8 A</item>
+        <item>\u03B8 B</item>
+        <item>\u03B4</item>
+    </array>
+    <array name="B_0_4_3">
+        <item>pointload</item>
+        <item>pointload</item>
+        <item>moment</item>
+        <item>pointload</item>
+        <item>angle</item>
+        <item>angle</item>
+        <item>length</item>
+    </array>
+    <array name="B_0_4_4">
+        <item>$$R_A = \\frac{wl}{4}$$</item>
+        <item>$$R_B = \\frac{wl}{4}$$</item>
+        <item>$$M(0 \\le x \\le \\frac{l}{2}) = \\frac{wx}{12l}(3l^2-6lx+4x^2) $$ \n
+            $$M(\\frac{l}{2} \\lt x \\le l) = \\frac{w(l-x)}{12l}(l^2-2lx+4x^2) $$ \n
+            $$M_{max}= M(\\frac{l}{2}) = \\frac{wl^2}{24}$$
+        </item>
+        <item>$$V(0 \\le x \\le \\frac{l}{2}) = \\frac{w}{4l}(l-2x)^2 $$ \n
+            $$V(\\frac{l}{2} \\lt x \\le l) = - \\frac{w}{4l}(2x-l)^2 $$ \n
+            $$V_{max}= V(0)=V(l) = \\frac{wl}{4}$$
+        </item>
+        <item>$$\\theta_A = \\frac{wl^3}{64EI}$$</item>
+        <item>$$\\theta_B = \\frac{-wl^3}{64EI}$$</item>
+        <item>$$\\delta(0 \\le x \\le \\frac{l}{2}) =$$ \n
+            $$ = \\frac{wx}{960lEI}(15l^4-50l^2x^2+40lx^3-16x^4)$$ \n
+            $$\\delta(\\frac{l}{2} \\lt x \\le l) = $$ \n
+            $$ = \\frac{w}{960lEI}(16x^5-40lx^4+40l^2x^3- $$ \n
+            $$ -40l^3x^2+25l^4x-l^5)$$
+        </item>
+    </array>
+</resources>

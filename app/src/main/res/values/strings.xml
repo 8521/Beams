@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Beams</string>
+    <string name="Moment_Diagram">Moment Diagram</string>
+    <string name="Shear_Diagram">Shear Diagram</string>
+    <string name="Reactions">Reactions</string>
+    <string name="RA">R<sub>A</sub></string>
+    <string name="MA">M<sub>A</sub></string>
+    <string name="RB">R<sub>B</sub></string>
+    <string name="MB">M<sub>B</sub></string>
+    <string name="info">\?</string>
+    <string name="Deflection_Diagram">Deflection Diagram</string>
+    <string name="EConcrete">E Concrete</string>
+    <string name="ESteel">E Steel</string>
+    <string name="loadimage">load image</string>
+
+
+    <string-array name="beam_loads">
+        <item>Point Load</item>
+        <item>Point Load x 2</item>
+        <item>Point Load x 3</item>
+        <item>Uniform Distributed Load</item>
+        <item>Partial Uniform Distributed Load</item>
+        <item>Triangular Distributed Load</item>
+        <item>Triangular Distributed Load x 2</item>
+    </string-array>
+
+</resources>
