@@ -12,6 +12,22 @@
     <string name="EConcrete">E Concrete</string>
     <string name="ESteel">E Steel</string>
     <string name="loadimage">load image</string>
+    <string name="Calculate">Calculate</string>
+    <string name="beam_properties">Beam Properties</string>
+    <string name="L">L</string>
+    <string name="E">E</string>
+    <string name="I">I</string>
+    <string name="Loading">Loading</string>
+    <string name="moment">Moment</string>
+    <string name="bending_moment">Bending Moment</string>
+    <string name="non_uniform_distributed_load">Non-Uniform Distributed Load</string>
+    <string name="uniform_distributed_load">Uniform Distributed Load</string>
+    <string name="distributed_load">Distributed Load</string>
+    <string name="point_load">Point Load</string>
+    <string name="action_settings">Settings</string>
+    <string name="Value">Load Value</string>
+    <string name="Position">Position</string>
+    <string name="Units">Units</string>
 
 
     <string-array name="beam_loads">

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#26a69a</color>
+    <color name="colorPrimaryLight">#64d8cb</color>
+    <color name="colorPrimaryDark">#00766c</color>
+    <color name="colorSecondary">#ff3d00</color>
+    <color name="colorSecondaryLight">#ff7539</color>
+    <color name="colorSecondaryDark">#c30000</color>
+    <color name="colorAccent">#ff3d00</color>
     <color name="naranja_flojo">#fcc889</color>
     <color name="naranja_oscuro">#ff6400</color>
     <color name="Black">#000</color>
@@ -20,4 +25,6 @@
     <color name="infoobuttoncolor">#3F51B5</color>
     <color name="ligthgray">#c2c2c2</color>
     <color name="transparent">#fff</color>
+    <color name="blue_button">#42ffba</color>
+    <color name="white_traslucent">#dcffffff</color>
 </resources>
